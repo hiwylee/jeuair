@@ -1,0 +1,144 @@
+{
+  "presentationTable" : {
+    "name" : "D3 Customers",
+    "presentationColumns" : [ {
+      "name" : "Cust Key",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Cust Key"
+    }, {
+      "name" : "Name",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Name"
+    }, {
+      "name" : "Type Key",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Type Key"
+    }, {
+      "name" : "Fst Contact Dt",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Fst Contact Dt"
+    }, {
+      "name" : "Segment Key",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Segment Key"
+    }, {
+      "name" : "Income Lvl",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Income Lvl"
+    }, {
+      "name" : "Status Key",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Status Key"
+    }, {
+      "name" : "Lst Order Dt",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Lst Order Dt"
+    }, {
+      "name" : "Address Key",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Address Key"
+    }, {
+      "name" : "Marital St",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Marital St"
+    }, {
+      "name" : "Prev Marital St",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Prev Marital St"
+    }, {
+      "name" : "Prev Marital St Dt",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Prev Marital St Dt"
+    }, {
+      "name" : "Birth Dt",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Birth Dt"
+    }, {
+      "name" : "Crdt Rate",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Crdt Rate"
+    }, {
+      "name" : "Gender",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Gender"
+    }, {
+      "name" : "Ltv",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Ltv"
+    }, {
+      "name" : "Num Attribute",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Num Attribute"
+    }, {
+      "name" : "Total Value",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Total Value"
+    }, {
+      "name" : "Address1",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Address1"
+    }, {
+      "name" : "Address2",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Address2"
+    }, {
+      "name" : "Postal Code",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Postal Code"
+    }, {
+      "name" : "City",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.City"
+    }, {
+      "name" : "State Province",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.State Province"
+    }, {
+      "name" : "Ctry Cd3 State Name",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Ctry Cd3 State Name"
+    }, {
+      "name" : "Ctry Cd3 State Abbrv",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Ctry Cd3 State Abbrv"
+    }, {
+      "name" : "Ctry Cd3 State Name City",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Ctry Cd3 State Name City"
+    }, {
+      "name" : "Longitude",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Longitude"
+    }, {
+      "name" : "Latitude",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Latitude"
+    }, {
+      "name" : "Estab Name",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Estab Name"
+    }, {
+      "name" : "Region",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Region"
+    }, {
+      "name" : "Iso Country Code3",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Iso Country Code3"
+    }, {
+      "name" : "Country Name",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Country Name"
+    }, {
+      "name" : "State Province Abbrv",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.State Province Abbrv"
+    }, {
+      "name" : "Area",
+      "sourceLogicalColumn" : "logicalColumn:Sample Sales BM.D3 Customers.Area"
+    } ],
+    "hierarchies" : [ {
+      "name" : "Customer Hierarchy",
+      "sourceLogicalTable" : "logicalTable:Sample Sales BM.D3 Customers",
+      "levels" : [ {
+        "name" : "합계",
+        "sourceLogicalLevel" : "logicalLevel:Sample Sales BM.D3 Customers.합계"
+      }, {
+        "name" : "Customer Region",
+        "sourceLogicalLevel" : "logicalLevel:Sample Sales BM.D3 Customers.Customer Region",
+        "displayColumn" : "presentationColumn:Sample Sales - 제주항공 HOL.D3 Customers.Region"
+      }, {
+        "name" : "Customer Area",
+        "sourceLogicalLevel" : "logicalLevel:Sample Sales BM.D3 Customers.Customer Area",
+        "displayColumn" : "presentationColumn:Sample Sales - 제주항공 HOL.D3 Customers.Area"
+      }, {
+        "name" : "Customer Country",
+        "sourceLogicalLevel" : "logicalLevel:Sample Sales BM.D3 Customers.Customer Country",
+        "displayColumn" : "presentationColumn:Sample Sales - 제주항공 HOL.D3 Customers.Country Name"
+      }, {
+        "name" : "Customer State Province",
+        "sourceLogicalLevel" : "logicalLevel:Sample Sales BM.D3 Customers.Customer State Province",
+        "displayColumn" : "presentationColumn:Sample Sales - 제주항공 HOL.D3 Customers.State Province"
+      }, {
+        "name" : "Customer City",
+        "sourceLogicalLevel" : "logicalLevel:Sample Sales BM.D3 Customers.Customer City",
+        "displayColumn" : "presentationColumn:Sample Sales - 제주항공 HOL.D3 Customers.City"
+      }, {
+        "name" : "Customer Postal Code",
+        "sourceLogicalLevel" : "logicalLevel:Sample Sales BM.D3 Customers.Customer Postal Code",
+        "displayColumn" : "presentationColumn:Sample Sales - 제주항공 HOL.D3 Customers.Postal Code"
+      }, {
+        "name" : "Details",
+        "sourceLogicalLevel" : "logicalLevel:Sample Sales BM.D3 Customers.Details",
+        "displayColumn" : "presentationColumn:Sample Sales - 제주항공 HOL.D3 Customers.Cust Key"
+      } ]
+    } ]
+  }
+}
